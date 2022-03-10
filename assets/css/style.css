@@ -1,0 +1,60 @@
+
+footer {
+    background-color:#373A3C;
+    font-family: "Lobster";
+    font-size: 37pt;
+    color: aliceblue;
+}
+
+#Receta {
+    text-align: left;
+    font-family: "Cabin";
+    color: #373A3C;
+}
+
+#Receta h2{
+    text-align: left;
+    font-family: "Cabin";
+    font-size: 20pt;
+}
+
+#Susc {
+    background-color:#DC3545 ;
+}
+
+#Susc h1{
+    font-family: "Cabin" ;
+}
+
+#Susc p{
+    font-family: "Cabin";
+}
+
+#recetasrelacionadas h1 {
+    font-family: "Cabin";
+    color:#373A3C ;
+}
+
+#Pizza h1 {
+    font-family: "Cabin";
+    font-size: 30pt;
+    text-align: left;
+}
+
+#Pizza h2 {
+    font-family: "Cabin";
+    font-size: 20pt;
+    text-align: left;
+    font-weight: 10;
+}
+#pp {
+    font-family: "Lobster";
+    font-size: 20pt;
+    color: aliceblue;
+}
+
+#Pizza h3 {
+    font-family: "Cabin";
+
+    font-size: 16pt;
+}

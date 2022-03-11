@@ -44,14 +44,14 @@
   <section id="Pizza">
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-6 ">
         <img src="assets/img/principal.jpg" alt="" class="img-fluid float-right" >  <!--width="482pt" height="384"-->
         </div>
         <div class="col-6">
           <h1>PIZZA AL ESTILO<br> CHICAGO CON<br> ESPINACAS Y<br> CHAMPIÑONES</h1>
           <hr class="opacity-100">
           <h2>110 MIN / 6 A 8 PORCIONES</h1>
-            <button type="button" class="btn btn-sm btn-light btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Presiona para enviar a tu correo">
+            <button type="button" class="btn btn-sm btn-light btn-outline-secondary" id="enviar" data-bs-toggle="tooltip" data-bs-placement="top" title="Presiona para enviar a tu correo">
               <p>Enviar por correo</p>
             </button>
             <button type="button" class="btn btn-sm btn-light btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Agrega esta receta a tus favoritos">
@@ -62,24 +62,55 @@
     </div>
   </section>
 
-  <section>
-    
+  <section class="d-none d-sm-block d-md-block">   <!--Carrusel-->
+    <div class="container my-3">
+      <div class="col-12">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+           </div>
+      <div class="carousel-inner d-flex ">
+        <div class="carousel-item active">
+          <img src="assets/img/slider-1.png" class="img-fluid" alt="..." width="320pt">
+          <img src="assets/img/slider-2.png" class="img-fluid" alt="..." width="320pt">
+          <img src="assets/img/slider-3.png" class="img-fluid" alt="..." width="320pt">
+          <img src="assets/img/slider-4.png" class="img-fluid" alt="..." width="320pt">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/slider-5.png" class="img-fluid" alt="..." width="320pt">
+          <img src="assets/img/slider-6.png" class="img-fluid" alt="..." width="320pt">
+          <img src="assets/img/slider-7.png" class="img-fluid" alt="..." width="320pt">
+          <img src="assets/img/slider-8.png" class="img-fluid" alt="..." width="320pt">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+  </div>
   </section>
 
   <section id="Receta" class="pt-5 container d-none d-sm-block"> <!--paddig top-5, contenedor, definir que en tamaño pequeño de pantalla no se muestre la seccion-->
     <div class="row pt-3"> <!--definir un div para tener 2 columnas / padding top-3 -->
         <div class="col-6"> <!--definir class de 6 columnas -->
-            <h2>INGREDIENTES</h2>
+            <h2 id="qwe">INGREDIENTES</h2>
             <hr class="opacity-100 w-25 mx-left">
             <p class="text-aling-left">Masa 20 gr de levadura seca instantánea <br> 1 cucharadita de azúcar 500 ml agua tibia<br> 100 ml aceite vegetal<br> 4 cucharadas de aceite de oliva<br> 65 gr harina de maíz fina (chuchoca)<br> 2 cucharaditas de sal <br>625 gr harina<br> Salsa<br><br> 5 cucharadas de aceite de oliva<br> ½ cebolla picada en cubos finos<br> 2 cucharaditas de sal<br> 3 cucharadas de Orégano Gourmet<br> 1 ½ cucharadas de Albahaca Gourmet<br> 2 tarro de tomates en cubos al natural<br> 2 cucharaditas de azúcar<br> Relleno<br><br> ½ cebolla, en cubos <br>500 gr hojas de espinacas picadas<br> 400 gr de champiñones, laminados<br> 300 gr de queso mozarella<br> 4 cucharadas queso parmesano</p>
         </div>
         <div class="col-6">
-            <h2>PREPARACIÓN</h2>
+            <h2 id="qwe2">PREPARACIÓN</h2>
             <hr class="opacity-100 w-25 mx-left">
             <p>1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.<br><br> 2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.<br><br> 3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar. <br><br>4. Calentar el horno a 220C. <br><br>5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado. <br><br>6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.</p>
         </div>
     </div>
-</section>
+  </section>
 
 <section id="recetasrelacionadas">
   <div class="container">
@@ -90,8 +121,8 @@
     <div class="card border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img src="assets/img/recipe-card-1.png" class="img-top">
         <div class="card-body">
-            <h4 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h4>
-            <p class="card-text fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dignissimos voluptatibus voluptate </p>
+            <h4 id="pan" class="card-title">PANQUEQUES CON MANJAR Y CREMA</h4>
+            <p id="qw" class="card-text fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dignissimos voluptatibus voluptate </p>
         </div> 
     </div>
   </div>
@@ -99,8 +130,8 @@
       <div class="card border-0">
           <img src="assets/img/recipe-card-2.png" class="img-top">
           <div class="card-body">
-              <h4 class="card-title">TIRAMISÚ</h4>
-              <p class="card-text fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dignissimos voluptatibus voluptate </p>
+              <h4 id="tira" class="card-title">TIRAMISÚ</h4>
+              <p id="misu" class="card-text fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dignissimos voluptatibus voluptate </p>
 
           </div>
       </div>
@@ -110,8 +141,8 @@
     <div class="card border-0">
         <img src="assets/img/recipe-card-3.png" class="img-top">
         <div class="card-body">
-            <h4 class="card-title">PLATEADA</h4>
-            <p class="card-text fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dignissimos voluptatibus voluptate </p>
+            <h4 id="plat" class="card-title">PLATEADA</h4>
+            <p id="teada" class="card-text fw-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque dignissimos voluptatibus voluptate </p>
         </div>
     </div>
 </div>
@@ -130,9 +161,9 @@
   </div>
 </section>
 
-  <footer id="Footer">
+<footer id="Footer">
     <h2 class="text-center">Ricomida</h2>
-  </footer>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
